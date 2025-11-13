@@ -1,6 +1,6 @@
 * { box-sizing: border-box; }
 :root{
-  --accent:#0ea5e9; --bg:#f8fafc; --text:#0f172a;
+  --accent:#c11da9; --bg:#f8fafc; --text:#0f172a;
   --muted:#475569; --radius:14px; --space:14px; --border:#e2e8f0;
 }
 html,body{margin:0;}
