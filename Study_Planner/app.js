@@ -37,7 +37,7 @@ function renderTasks() {
       return `
       <li>
         <div>
-          <strong>${t.title}</strong> <span class="badge">${t.type}</span>
+          <strong>${t.title}</strong> <span class="badge badge-${t.type.toLowerCase()}">${t.type}</span>
           <div class="meta">Subject: ${subject} • Due: ${due}</div>
         </div>
         <div>
